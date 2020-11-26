@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp.InputWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Canvas>
+
+        <TextBlock Text="Name : " Margin="0,36,-0.667,-36.333"/>
+        <TextBox Name="MainTextBox" Width="138" HorizontalAlignment="left" Canvas.Left="56" Canvas.Top="36" />
+
+        <Label Content="Select a difficulty level" Canvas.Top="82"/>
+        <RadioButton Canvas.Left="10" Canvas.Top="112">Easy</RadioButton>
+        <RadioButton Canvas.Left="10" Canvas.Top="132">Medium</RadioButton>
+        <RadioButton Canvas.Left="10" Canvas.Top="152">Hard</RadioButton>
+
+        <Button Name ="startbutton" Content="Start" Click="startbutton_Click" Width="50" Height="50" Canvas.Left="239" Canvas.Top="199"/>
+    </Canvas>
+</Window>

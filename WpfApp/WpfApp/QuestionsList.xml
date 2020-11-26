@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<root>
+	<question name = "Question 1" difficulty = "easy">
+		<difficulty>easy</difficulty>
+		<description>question1</description>
+		<correct_response>response1.1</correct_response>
+		<response>response2.1</response>
+		<response>response3.1</response>
+		<response>response4.1</response>
+	</question>
+
+	<question name = "Question 2" difficulty = "easy">
+		<difficulty>easy</difficulty>
+		<description>question2</description>
+		<correct_response>response1.2</correct_response>
+		<response>response2.2</response>
+		<response>response3.2</response>
+		<response>response4.2</response>
+	</question>
+
+
+	<question name = "Question 3" difficulty = "hard">
+		<difficulty>hard</difficulty>
+		<description>question3</description>
+		<correct_response>response1.3</correct_response>
+		<response>response2.3</response>
+		<response>response3.3</response>
+		<response>response4.3</response>
+	</question>
+
+	<question name = "Question 4" difficulty = "hard">
+		<difficulty>hard</difficulty>
+		<description>question4</description>
+		<correct_response>response1.4</correct_response>
+		<response>response2.4</response>
+		<response>response3.4</response>
+		<response>response4.4</response>
+	</question>
+
+	<question name = "Question 5" difficulty = "normal">
+		<difficulty>normal</difficulty>
+		<description>question5</description>
+		<response>response1.5</response>
+		<correct_response>response2.5</correct_response>
+		<response>response3.5</response>
+		<response>response4.5</response>
+	</question>
+
+	<question name = "Question 6" difficulty = "normal">
+		<difficulty>normal</difficulty>
+		<description>question6</description>
+		<correct_response>response1.6</correct_response>
+		<response>response2.6</response>
+		<response>response3.6</response>
+		<response>response4.6</response>
+	</question>
+
+</root>
